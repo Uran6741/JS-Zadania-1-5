@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie 4 - Teoria JS</title>
+    <script src="skrypt.js"></script>
+</head>
+<body style="padding: 15px; font-family: sans-serif;">
+
+    <p><b>1) Kiedy powstał JavaScript (podaj datę).</b><br>
+    JavaScript powstał w maju 1995 roku (stworzony przez Brandana Eicha w firmie Netscape).</p>
+
+    <p><b>2) Dlaczego jest to język skryptowy</b><br>
+    Ponieważ jego kod nie jest kompilowany do pliku wykonywalnego (.exe), lecz interpretowany na bieżąco przez silnik wbudowany w przeglądarkę internetową.</p>
+
+    <p><b>3) Gdzie jest wykonywany JS (klient lub serwer)</b><br>
+    Głównie po stronie klienta (w przeglądarce użytkownika), ale może być również wykonywany po stronie serwera (np. za pomocą środowiska Node.js).</p>
+
+    <p><b>4) Dlaczego jest JS to bezpieczne narzędzie</b><br>
+    Działa w odizolowanym środowisku (tzw. sandbox / piaskownicy) w przeglądarce, co uniemożliwia skryptom bezpośredni dostęp do plików na dysku twardym użytkownika czy zasobów systemu operacyjnego.</p>
+
+    <p><b>5) Czy jest to język obiektowy, jeśli tak to dlaczego.</b><br>
+    Tak, jest to język obiektowy oparty na prototypach (prototype-based), w którym niemal wszystko (w tym tablice, funkcje) jest obiektem posiadającym właściwości i metody.</p>
+
+    <p><b>6) Wymień zalety JS:</b><br>
+    Zaleta1: Interaktywność i szybkie reagowanie na zdarzenia użytkownika bez przeładowywania strony.<br>
+    Zaleta2: Wszechstronność – umożliwia tworzenie stron WWW, aplikacji mobilnych i serwerowych.<br>
+    Zaleta3: Duży ekosystem, biblioteki i ogromne wsparcie społeczności.</p>
+
+    <p><b>7) Framework to:</b><br>
+    Gotowa struktura i zestaw narzędzi/bibliotek ułatwiający oraz przyspieszający tworzenie kompleksowych aplikacji (np. React, Angular, Vue).</p>
+
+    <p><b>8) Do aplikacji mobilnych można użyć Framework</b><br>
+    Tak, np. React Native, Ionic lub Flutter.</p>
+
+    <p><b>9) Aplikacje responsywne to:</b><br>
+    Aplikacje/strony internetowe, które automatycznie dostosowują swój układ i wygląd do szerokości ekranu urządzenia (np. smartfona, tabletu, komputera).</p>
+
+    <p><b>10) Przepisz linie kody pod nimi wytłumaczenie jak działa ten fragment kodu</b><br>
+    <code>&lt;input type="button" name="przycisk" value="Nowa Strona" onclick="WinOpen(' ')"&gt;</code><br>
+    Tworzy przycisk formularza o nazwie "przycisk" i etykiecie "Nowa Strona", który po kliknięciu wywołuje funkcję JavaScript <code>WinOpen(' ')</code>.</p>
+
+    <p><b>11) Przepisz linie kody pod nimi wytłumaczenie jak działa ta ten fragment kodu</b><br>
+    <code>window.open("obraz.html","okienko","toolbar=no,directories=no,menubar=no,height=280,width=160,top=200,left=200");</code><br>
+    Otwiera nowe okno przeglądarki ładujące stronę "obraz.html" o nazwie "okienko" z określonymi wymiarami i pozycją:<br>
+    • toolbar=no &rarr; ukrywa pasek narzędzi przeglądarki<br>
+    • directories=no &rarr; ukrywa pasek zakładek/katalogów<br>
+    • menubar=no &rarr; ukrywa górne menu (Plik, Edycja itp.)<br>
+    • height=280 &rarr; ustawia wysokość okna na 280 pikseli<br>
+    • width=160 &rarr; ustawia szerokość okna na 160 pikseli<br>
+    • top=200 &rarr; ustawia odległość okna od górnej krawędzi ekranu na 200 pikseli<br>
+    • left=200 &rarr; ustawia odległość okna od lewej krawędzi ekranu na 200 pikseli</p>
+
+    <p><b>12) Opisz następującą instrukcję window.close()</b><br>
+    Instrukcja zamyka bieżące okno przeglądarki, które zostało wcześniej otwarte za pomocą skryptu JS.</p>
+
+    <br>
+    <input type="button" value="zamknij okno" onclick="okno_zamknij_jankowski_4()">
+
+</body>
+</html>
